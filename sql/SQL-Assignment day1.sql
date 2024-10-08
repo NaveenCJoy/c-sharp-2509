@@ -215,6 +215,9 @@ CREATE TABLE OrderDetails(
 
 SELECT * FROM OrderDetails
 
+
+-----------------------------
+--ASSIGNMENT 13
 --Create a Users table with UserID as the primary key, and include Email and Username as
 --candidate keys. Set the Email column as a unique key.
 CREATE TABLE UsersTable(
@@ -222,3 +225,56 @@ CREATE TABLE UsersTable(
 	Email varchar(50) UNIQUE,
 	Username varchar(50) UNIQUE,
 );
+
+
+------------------------------
+--ASSIGNMENT 14
+--Create a Products table with an AutoID as a surrogate key that automatically increments. Include
+--ProductName and Price columns. CREATE TABLE ProductsTable(
+	AutoID INT IDENTITY(1,1) PRIMARY KEY,
+    ProductName VARCHAR(50) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL
+);
+
+INSERT INTO ProductsTable(ProductName,Price)
+VALUES('Keyboard',800),('Mouse',250)
+SELECT * FROM ProductsTable
+
+
+
+------------------------------
+--ASSIGNMENT 15
+--Create a Employees table that uses SSN (Social Security Number) as a natural key. Include
+--columns for FirstName, LastName, and Position. 
+CREATE TABLE EmployeesTable (
+    SSN CHAR(10) PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Position VARCHAR(50)
+);
+
+
+------------------------------
+--ASSIGNMENT 16
+--Create a Customers table with a CustomerID as the primary key and a PhoneNumber column
+--that must be unique. 
+CREATE TABLE CustomersTable (
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    PhoneNumber VARCHAR(15) UNIQUE NOT NULL
+);
+
+
+
+
+
+
+--VIEWS
+--ASSIGNMENT 17
+
+--Create a simple view named EmployeeView that displays the FirstName, LastName, and
+--Department columns from the Employees table.CREATE VIEW CustomEmployeeView ASSELECT FirstName, LastName, DepartmentFROM Employees--Query the view to display the details.SELECT * FROM CustomEmployeeView------------------------------------ASSIGNMENT 18--Create a view named EditableEmployeeView that shows EmployeeID, FirstName,
+--LastName, and SalaryCREATE VIEW EditableEmployeeView ASSELECT EmployeeID, FirstName, LastName, SalaryFROM Employees--Update the salary of an employee using the view. UPDATE EditableEmployeeViewSET Salary=65000WHERE FirstName='John' AND EmployeeID=7--Verify the updateSELECT * FROM EditableEmployeeView-----------------------------------ASSIGNMENT 19--Create a view named EmployeeSalaryBonusView that displays each employee’s
+--FirstName, LastName, Salary, and a calculated column Bonus (10% of the salary). CREATE VIEW EmployeeSalaryBonusView ASSELECT FirstName, LastName, Salary, Salary+Salary*0.10 AS BonusFROM Employees--Query the viewSELECT * FROM EmployeeSalaryBonusView-------------------------------------ASSIGNMENT 20--Alter the EmployeeView from Assignment 1 to include a new column Salary.ALTER VIEW CustomEmployeeView ASSELECT FirstName, LastName, Department, SalaryFROM Employees--Verify the view with the updated column.SELECT * FROM CustomEmployeeView--------------------------------------ASSIGNMENT 21--Create a view named FilteredEmployeeView from employees table that displays
+--EmployeeID,FirstName,LastName & Department. CREATE VIEW FilteredEmployeeView ASSELECT EmployeeID,FirstName,LastName, DepartmentFROM Employees--Use a query on the view to return employees in a specific department (e.g.,DepartmentID = 2). SELECT * FROM FilteredEmployeeView WHERE Department='HR'--------------------------------------ASSIGNMENT 22--Drop the EmployeeView that was created in the previous assignments. DROP VIEW CustomEmployeeView--Try to query the view again. SELECT * FROM CustomEmployeeView
