@@ -1,0 +1,51 @@
+body {
+  /* background-color: rgb(255, 187, 0); */
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 187, 0),
+    rgb(255, 80, 80)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 187, 0);
+  box-shadow: transparent;
+  outline: none;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subimt-button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(66, 248, 59);
+  border: none;
+}
+
+.subimt-button:hover {
+  background-color: rgb(59, 204, 54);
+}
+
+.email-input {
+  width: 93% !important;
+}
+
+@media screen and (max-width: 812px) {
+  .email-input {
+    width: 50% !important;
+  }
+}

@@ -1,0 +1,34 @@
+﻿header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3a3a3a;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact-button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #bdff00;
+  box-shadow: none;
+}
+
+.contact-button:hover {
+  cursor: pointer;
+}

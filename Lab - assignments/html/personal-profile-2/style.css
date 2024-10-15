@@ -1,0 +1,42 @@
+﻿body {
+  background-color: #3a3a3a;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-font {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.horizontal-list {
+  display: flex;
+  list-style-type: none;
+  /* padding: 0; */
+  margin: 0;
+  gap: 15px;
+}
+
+li {
+  margin-right: 30px;
+}
+
+.footer-class {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #bdff00;
+  box-shadow: none;
+}
+
+button:hover {
+  cursor: pointer;
+}

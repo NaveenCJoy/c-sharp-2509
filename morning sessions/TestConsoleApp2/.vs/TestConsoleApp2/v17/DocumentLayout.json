@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\navee\\source\\repos\\TestConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{471CC5A9-A781-423D-B5E7-4A50946028CC}|TestConsoleApp2\\TestConsoleApp2.csproj|c:\\users\\navee\\source\\repos\\testconsoleapp2\\testconsoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471CC5A9-A781-423D-B5E7-4A50946028CC}|TestConsoleApp2\\TestConsoleApp2.csproj|solutionrelative:testconsoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\navee\\source\\repos\\TestConsoleApp2\\TestConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "TestConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\navee\\source\\repos\\TestConsoleApp2\\TestConsoleApp2\\Program.cs",
+              "RelativeToolTip": "TestConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAmZmZmZklwCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:01:13.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

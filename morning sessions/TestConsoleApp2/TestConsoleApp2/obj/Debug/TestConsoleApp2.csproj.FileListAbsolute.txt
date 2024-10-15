@@ -1,0 +1,7 @@
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\bin\Debug\TestConsoleApp2.exe.config
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\bin\Debug\TestConsoleApp2.exe
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\bin\Debug\TestConsoleApp2.pdb
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\obj\Debug\TestConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\obj\Debug\TestConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\obj\Debug\TestConsoleApp2.exe
+C:\Users\navee\source\repos\TestConsoleApp2\TestConsoleApp2\obj\Debug\TestConsoleApp2.pdb

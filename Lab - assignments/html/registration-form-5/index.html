@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 style="color: white">Register Now!</h1>
+    </div>
+    <div class="form-container">
+      <form style="display: flex; flex-direction: column">
+        <div style="margin-bottom: 15px">
+          <input placeholder="Firstname" required />
+          <input placeholder="Lastname" required />
+        </div>
+        <div style="margin-bottom: 15px">
+          <input placeholder="Email" class="email-input" required />
+        </div>
+        <div style="margin-bottom: 15px">
+          <input placeholder="Password" required />
+          <input placeholder="Confrim Password" required />
+        </div>
+        <div
+          style="
+            display: flex;
+            margin-bottom: 15px;
+            justify-content: space-between;
+          "
+        >
+          <label>Gender: </label>
+          <label> <input type="radio" name="gender" required />Male </label>
+          <label> <input type="radio" name="gender" />Female </label>
+          <label> <input type="radio" name="gender" />Others </label>
+        </div>
+        <div style="margin-bottom: 15px">
+          <label>
+            DOB:
+            <input type="date" required />
+          </label>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <button class="subimt-button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

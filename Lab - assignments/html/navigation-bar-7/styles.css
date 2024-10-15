@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  padding: 1px 25px;
+  background-color: #3a3a3a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+  color: rgb(177, 174, 174);
+}
+
+li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(177, 174, 174);
+}
+
+@media (max-width: 700px) {
+  .lists {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}

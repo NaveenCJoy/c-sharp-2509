@@ -1,0 +1,44 @@
+.left-div {
+  display: block;
+  height: 60vh;
+}
+
+.right-div {
+  display: block;
+  width: 65%;
+  padding: 5px;
+}
+
+.rating {
+  padding-left: 6px;
+  padding-right: 6px;
+  width: 40px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.buy-button {
+  padding: 20px;
+  width: 45%;
+  background-color: #f7a200;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+}
+
+.add-button {
+  padding: 20px;
+  width: 45%;
+  background-color: #f18219;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: 0;
+  outline: none;
+  color: white;
+  font-weight: 700;
+}

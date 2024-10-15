@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(to left, #090979, #00d4ff);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #6d6dd4;
+  box-shadow: transparent;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #6d6dd4;
+  box-shadow: transparent;
+  outline: none;
+}
+
+button {
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  /* background-image: linear-gradient(to right, #090979, #00d4ff); */
+  background-color: #090979;
+}
+
+button:hover {
+  background-color: #00d4ff;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 80%;
+  }
+}
