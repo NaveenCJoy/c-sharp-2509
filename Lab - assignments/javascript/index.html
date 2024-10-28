@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="html-body">
+    <!-- ASSIGNMENT 1 -->
+    <div>
+      <h2>1. Sum two numbers</h2>
+      <input id="num1" type="number" placeholder="first number" />
+      <input id="num2" type="number" placeholder="second number" />
+      <button onclick="Add()">Add</button>
+      <p id="result1">The result is:</p>
+    </div>
+    <!-- ASSIGNMENT 2 -->
+    <div>
+      <h2>2. Check if even/odd</h2>
+      <input id="num3" type="number" placeholder="Enter a number" />
+      <button onclick="EvenOdd()">Check even/odd</button>
+      <p id="result2">The number is:</p>
+    </div>
+    <!-- ASSIGNMENT 3 -->
+    <div>
+      <h2>3. Get largest number</h2>
+      <input id="a" type="number" placeholder="Enter a" />
+      <input id="b" type="number" placeholder="Enter b" />
+      <input id="c" type="number" placeholder="Enter c" />
+      <button onclick="largestNumber()">Get largest number</button>
+      <p id="result3"></p>
+    </div>
+    <!-- ASSIGNMENT 4 -->
+    <div>
+      <h2>4. Basic todo list</h2>
+      <input id="todo" placeholder="Enter todo" />
+      <button onclick="addTodo()">Add</button>
+      <button onclick="showTodos()">Show todos</button>
+      <p>Todos:</p>
+      <ul id="result4"></ul>
+    </div>
+    <!-- ASSIGNMENT 5 -->
+    <div>
+      <h2>5. Temperature Converter</h2>
+      <input
+        id="temperature"
+        placeholder="Enter temp. in celsius"
+        type="number"
+      />
+      <button onclick="tempConvert()">Convert</button>
+      <p id="result5"></p>
+    </div>
+    <!-- ASSIGNMENT 6 -->
+    <div>
+      <h2>6. Countdown timer</h2>
+      <input id="time" placeholder="enter time in seconds" type="number" />
+      <button onclick="startCountDown()">Start countdown</button>
+      <p id="time-remaining">Remaining time:</p>
+    </div>
+    <!-- ASSIGNMENT 7 -->
+    <div>
+      <h2>7. Dynamic Color Changer</h2>
+      <input type="color" id="color-picker" value="#fff" />
+      <!-- <button style="background-color: blue" onclick="changeBlue()">
+        Blue
+      </button>
+      <button style="background-color: green" onclick="changeGreen()">
+        Blue
+      </button>
+      <button style="background-color: yellow" onclick="changeYellow()">
+        Blue
+      </button> -->
+    </div>
+    <!-- ASSIGNMENT 8 -->
+    <div>
+      <h2>8. Simple Calculator</h2>
+      <input id="calc1" type="number" placeholder="enter 1st number" />
+      <select id="operation" name="operation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input id="calc2" type="number" placeholder="enter 2nd number" />
+      <button onclick="calculatorFunc()">Show result</button>
+      <p id="result8"></p>
+    </div>
+    <!-- ASSIGNMENT 9 -->
+    <div>
+      <h2>9. Digital Clock</h2>
+      <button onclick="digitalClock()">Show time</button>
+
+      <p id="time-now">Time is</p>
+    </div>
+    <!-- ASSIGNMENT 10 -->
+    <div>
+      <h2>10. Tip Calculator</h2>
+      <input id="bill-amount" placeholder="Enter amount" />
+      <input id="tip-percent" placeholder="Enter tip percent" />
+      <button onclick="tipCalculator()">Calculate</button>
+      <p id="result10"></p>
+    </div>
+    <!-- ASSIGNMENT 12 -->
+    <div>
+      <h2>12. Stopwatch</h2>
+      <button onclick="stopWatch()" id="stopwatch-button">Start</button>
+      <button onclick="stopWatchReset()">Reset</button>
+      <h2 id="stopwatch">00 : 00</h2>
+    </div>
+    <!-- ASSIGNMENT 13 -->
+    <div>
+      <h2>13. Light/Dark Mode Toggle</h2>
+      <button id="mode-toggle" onclick="toggleMode()">Toggle Mode</button>
+    </div>
+    <!-- ASSIGNMENT 14 -->
+    <div>
+      <h2>14. Random Quote Generator</h2>
+      <button onclick="generateQuote()">Generate</button>
+      <p id="quote"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

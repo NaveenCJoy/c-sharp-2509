@@ -1,0 +1,7 @@
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\bin\Debug\21-10-24 lab oops.exe.config
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\bin\Debug\21-10-24 lab oops.exe
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\bin\Debug\21-10-24 lab oops.pdb
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\obj\Debug\21-10-24 lab oops.csproj.AssemblyReference.cache
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\obj\Debug\21-10-24 lab oops.csproj.CoreCompileInputs.cache
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\obj\Debug\21-10-24 lab oops.exe
+C:\Users\navee\source\repos\21-10-24 lab oops\21-10-24 lab oops\obj\Debug\21-10-24 lab oops.pdb

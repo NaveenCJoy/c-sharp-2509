@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple quiz app</title>
+  </head>
+  <body>
+    <h1>Simple Quiz</h1>
+    <p>1. What does HTML stand for?</p>
+
+    <label
+      ><input type="radio" name="1" value="wrong" required /> Hyperlinks and
+      Text Markup Language</label
+    ><br />
+    <label
+      ><input type="radio" name="1" value="correct" required /> Hyper Text
+      Markup Language</label
+    ><br />
+    <label
+      ><input type="radio" name="1" value="wrong" required /> Home Tool Markup
+      Language</label
+    >
+    <p>2. What does CSS stand for?</p>
+    <label
+      ><input type="radio" name="2" value="wrong" /> Common style sheet</label
+    ><br />
+    <label
+      ><input type="radio" name="2" value="correct" /> Cascading style
+      sheets</label
+    ><br />
+    <label
+      ><input type="radio" name="2" value="wrong" /> Create style sheet</label
+    >
+    <p>3. What is the purpose of JavaScript?</p>
+    <label>
+      <input type="radio" name="3" value="wrong" /> To style web pages </label
+    ><br />
+    <label>
+      <input type="radio" name="3" value="correct" /> To make web pages
+      interactive </label
+    ><br />
+    <label>
+      <input type="radio" name="3" value="wrong" /> To structure web pages
+    </label>
+
+    <p>4. What does HTTP stand for?</p>
+    <label>
+      <input type="radio" name="4" value="wrong" /> Hyperlinks Transfer Protocol </label
+    ><br />
+    <label>
+      <input type="radio" name="4" value="correct" /> Hyper Text Transfer
+      Protocol </label
+    ><br />
+    <label>
+      <input type="radio" name="4" value="wrong" /> Home Tool Transfer Protocol
+    </label>
+
+    <br />
+    <button onclick="submitAns()">Submit</button>
+
+    <p id="result" style="font-weight: 700"></p>
+    <p id="correct-answers"></p>
+    <p id="wrong-answers"></p>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\bin\Debug\24-10-24 morning.exe.config
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\bin\Debug\24-10-24 morning.exe
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\bin\Debug\24-10-24 morning.pdb
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\obj\Debug\24-10-24 morning.csproj.AssemblyReference.cache
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\obj\Debug\24-10-24 morning.csproj.CoreCompileInputs.cache
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\obj\Debug\24-10-24 morning.exe
+C:\Users\navee\source\repos\24-10-24 morning\24-10-24 morning\obj\Debug\24-10-24 morning.pdb

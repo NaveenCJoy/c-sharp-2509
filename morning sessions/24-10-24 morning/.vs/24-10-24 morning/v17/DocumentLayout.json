@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|c:\\users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|solutionrelative:24-10-24 morning\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|c:\\users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|solutionrelative:24-10-24 morning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|c:\\users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\codingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|solutionrelative:24-10-24 morning\\codingstandards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|c:\\users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702B61F3-E173-4DCF-913C-0D6A1906F989}|24-10-24 morning\\24-10-24 morning.csproj|solutionrelative:24-10-24 morning\\a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\Emp.cs",
+              "RelativeDocumentMoniker": "24-10-24 morning\\Emp.cs",
+              "ToolTip": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\Emp.cs",
+              "RelativeToolTip": "24-10-24 morning\\Emp.cs",
+              "ViewState": "AgIAAAYAAADQzMzMzEwwwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T06:22:37.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodingStandards.cs",
+              "DocumentMoniker": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\CodingStandards.cs",
+              "RelativeDocumentMoniker": "24-10-24 morning\\CodingStandards.cs",
+              "ToolTip": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\CodingStandards.cs",
+              "RelativeToolTip": "24-10-24 morning\\CodingStandards.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:22:04.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "A.cs",
+              "DocumentMoniker": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\A.cs",
+              "RelativeDocumentMoniker": "24-10-24 morning\\A.cs",
+              "ToolTip": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\A.cs",
+              "RelativeToolTip": "24-10-24 morning\\A.cs",
+              "ViewState": "AgIAACgAAACgmZmZmZknwDIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:32:48.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\Program.cs",
+              "RelativeDocumentMoniker": "24-10-24 morning\\Program.cs",
+              "ToolTip": "C:\\Users\\navee\\source\\repos\\24-10-24 morning\\24-10-24 morning\\Program.cs",
+              "RelativeToolTip": "24-10-24 morning\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:31:30.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

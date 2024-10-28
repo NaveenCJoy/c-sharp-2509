@@ -166,6 +166,9 @@ VALUES('P001', 'C001', 4, '2024-09-01'),
     ('P003', 'C001', 2, '2024-09-04'),
     ('P002', 'C004', 4, '2024-09-05');
 
+
+SELECT * FROM ProductRatings;
+
 --Write a query to calculate the average rating for each product (AVG with GROUP BY).
 SELECT ProductID, AVG(Rating) FROM ProductRatings GROUP BY ProductID
 

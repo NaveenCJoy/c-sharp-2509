@@ -1,0 +1,7 @@
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\bin\Debug\assignment-inheritance.exe.config
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\bin\Debug\assignment-inheritance.exe
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\bin\Debug\assignment-inheritance.pdb
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\obj\Debug\assignment-inheritance.csproj.AssemblyReference.cache
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\obj\Debug\assignment-inheritance.csproj.CoreCompileInputs.cache
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\obj\Debug\assignment-inheritance.exe
+C:\Users\navee\source\repos\assignment-inheritance\assignment-inheritance\obj\Debug\assignment-inheritance.pdb
